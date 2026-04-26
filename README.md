@@ -54,7 +54,7 @@ Five raw sources (IMF WEO, World Bank IDS, ACLED, IMF BOP, BIS) are cleaned by `
 pip install -r requirements.txt
 ```
 
-**Option A — modeling only (recommended).** Download the cleaned dataset from the repository's GitHub Releases page (asset: `early-warning-data-v1.0.zip`), unzip it into `data/`, and run `notebooks/02_modeling.ipynb` end to end. Set the `BASE` variable at the top of the notebook to the local path of the `sovereign_debt_v2_final` folder.
+**Option A — modeling only (recommended).** Download the cleaned dataset asset from the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/download/v1.0/early-warning-data-v1.0.zip) (~9 MB), unzip it into the project root so the contents land under `data/interim/`, `data/processed/`, and `data/final/`, and run `notebooks/02_modeling.ipynb` end to end. Set the `BASE` variable at the top of the notebook to the local path that contains the extracted `data/` directory.
 
 **Option B — full pipeline from raw sources.** Follow the download instructions in [`data/README.md`](data/README.md) to populate `data/raw/`, then run:
 

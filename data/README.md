@@ -14,7 +14,9 @@ data/
 
 ## Option 1 — download the cleaned dataset (fastest)
 
-The cleaned panel, train/val/test splits, sliding-window arrays, and feature metadata are bundled and attached to the latest GitHub Release of this repository (asset name: `early-warning-data-v1.0.zip`, ~30 MB). Download it from the repository's Releases page and unzip into the project root so the contents land under `data/interim/`, `data/processed/`, and `data/final/`. After unzipping, `notebooks/02_modeling.ipynb` runs end to end.
+The cleaned panel, train/val/test splits, sliding-window arrays, and feature metadata are bundled and attached to the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/tag/v1.0).
+
+Direct download: [`early-warning-data-v1.0.zip`](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/download/v1.0/early-warning-data-v1.0.zip) (~9 MB). Unzip into the project root so the contents land under `data/interim/`, `data/processed/`, and `data/final/`. After unzipping, `notebooks/02_modeling.ipynb` runs end to end.
 
 ## Option 2 — rebuild from raw sources
 
