@@ -1,0 +1,63 @@
+# Data — distributed via GitHub Releases, not committed
+data/raw/*
+data/interim/*
+data/processed/*
+data/final/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
+# Common data file types
+*.csv
+*.tsv
+*.npz
+*.npy
+*.pkl
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.zip
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# PDFs (none committed)
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
