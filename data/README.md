@@ -1,26 +1,32 @@
 # Data
 
-This directory is intentionally empty in version control. The cleaned, model-ready dataset is distributed as a GitHub Release asset, and the raw inputs are downloaded from the original public providers (links below).
+The cleaned, model-ready dataset ships in this repository under `data/interim/`, `data/processed/`, and `data/final/`. Only `data/raw/` (the original provider archives) is excluded from version control because of file-size and licensing considerations; raw inputs can be downloaded directly from the original public providers using the links below.
 
 ## Folder layout
 
 ```
 data/
-├── raw/         # original archives downloaded from each source
-├── interim/     # single-source cleaned files produced by src/data_cleaning_pipeline.py
-├── processed/   # merged country-month panel (panel_full.csv)
-└── final/       # train/val/test flat tables, 24-month sliding-window .npz arrays, metadata
+├── raw/         # original provider archives — not committed; download separately (see below)
+├── interim/     # cleaned single-source files (committed) — produced by src/data_cleaning_pipeline.py
+├── processed/   # merged country-month panel (committed) — panel_full.csv
+└── final/       # train/val/test flat tables, 24-month sliding-window .npz arrays, metadata, results (committed)
 ```
 
-## Option 1 — download the cleaned dataset (fastest)
+## What's already in this repo
 
-The cleaned panel, train/val/test splits, sliding-window arrays, and feature metadata are bundled and attached to the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/tag/v1.0).
+| Folder | Contents | Size |
+|---|---|---|
+| `data/interim/` | 13 single-source files (ACLED aggregates, BIS, BOP + audit, CPI, distress events, external debt, FX, interest rates, labels, political violence, WEO) | ~5.8 MB |
+| `data/processed/` | `panel_full.csv` — 9,600 rows × 87 columns | ~8.2 MB |
+| `data/final/` | `train_flat.csv`, `val_flat.csv`, `test_flat.csv`, matching `_meta.csv` files, `train_windows.npz`, `val_windows.npz`, `test_windows.npz`, `panel_full.csv` (96 cols, with engineered features), `feature_metadata.json`, `class_distribution.json`, `summary_statistics.csv`, and the canonical `results_improved_baselines_v2_all_models/` model outputs | ~23 MB |
 
-Direct download: [`early-warning-data-v1.0.zip`](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/download/v1.0/early-warning-data-v1.0.zip) (~9 MB). Unzip into the project root so the contents land under `data/interim/`, `data/processed/`, and `data/final/`. After unzipping, `notebooks/02_modeling.ipynb` runs end to end.
+The `notebooks/02_modeling.ipynb` notebook can be run directly against these files — no extra download step is needed.
 
-## Option 2 — rebuild from raw sources
+A bundled archive (`early-warning-data-v1.0.zip`, ~9 MB) of the same data is also attached to the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/tag/v1.0) for users who want a single-file download.
 
-Place the raw archives below into `data/raw/` and run `python src/data_cleaning_pipeline.py` from the project root. The pipeline writes `data/interim/` and `data/processed/`; `notebooks/01_preprocessing.ipynb` then writes `data/final/`.
+## Rebuilding from raw sources
+
+To reproduce the pipeline end to end, place the provider archives below into `data/raw/` and run `python src/data_cleaning_pipeline.py` from the project root. The pipeline regenerates `data/interim/` and `data/processed/`; `notebooks/01_preprocessing.ipynb` then regenerates `data/final/`.
 
 | Source | Provider | What we use | Access |
 |---|---|---|---|
@@ -32,7 +38,7 @@ Place the raw archives below into `data/raw/` and run `python src/data_cleaning_
 | BoC–BoE Sovereign Default Database | Bank of Canada / Bank of England | Distress episodes used to construct the `distress_within_12m` label | https://www.bankofcanada.ca/?p=224812 |
 | Foreign exchange and CPI | IMF Data Portal / national statistics | Monthly FX rates and consumer price indices | https://data.imf.org |
 
-> **ACLED note:** ACLED requires a free academic registration to download conflict-event data, and their license restricts redistribution. The cleaned, country-month *aggregates* used here are derived statistics, but please consult the ACLED Terms of Use before publishing any derivative work.
+> **ACLED note:** ACLED requires a free academic registration to download the original event-level data. The files committed in this repository are derived country-month aggregates, not the raw event records.
 
 ## File names expected by the cleaning pipeline
 

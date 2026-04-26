@@ -1,0 +1,169 @@
+iso3,feature,country_raw,series_code,frequency,nonnull_count,indicator,bop_accounting_entry,unit
+KEN,bop_workers_remittances_credit_usd,Kenya,KEN.CD_T.D752W_S1W.USD.A,Annual,50,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+KEN,bop_fdi_liabilities_usd,Kenya,KEN.L_NIL_T.D_F.USD.A,Annual,50,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+KEN,bop_other_investment_loans_liabilities_usd,Kenya,KEN.L_NIL_T.O_F4.USD.A,Annual,50,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+KEN,bop_portfolio_liabilities_usd,Kenya,KEN.L_NIL_T.P_F.USD.A,Annual,50,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+KEN,bop_reserve_assets_usd,Kenya,KEN.A_T.R_AFR.USD.A,Annual,50,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+KEN,bop_current_account_balance_usd,Kenya,KEN.NETCD_T.CAB.USD.A,Annual,50,Current account balance (credit less debit),Net (credits less debits),US dollar
+UKR,bop_portfolio_liabilities_usd,Ukraine,UKR.L_NIL_T.P_F.USD.Q,Quarterly,127,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+UKR,bop_fdi_liabilities_usd,Ukraine,UKR.L_NIL_T.D_F.USD.Q,Quarterly,127,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+VEN,bop_fdi_liabilities_usd,"Venezuela, República Bolivariana de",VEN.L_NIL_T.D_F.USD.Q,Quarterly,92,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+UKR,bop_other_investment_loans_liabilities_usd,Ukraine,UKR.L_NIL_T.O_F4.USD.Q,Quarterly,127,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+BRA,bop_workers_remittances_credit_usd,Brazil,BRA.CD_T.D752W_S1W.USD.Q,Quarterly,88,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+VEN,bop_current_account_balance_usd,"Venezuela, República Bolivariana de",VEN.NETCD_T.CAB.USD.Q,Quarterly,92,Current account balance (credit less debit),Net (credits less debits),US dollar
+VEN,bop_other_investment_loans_liabilities_usd,"Venezuela, República Bolivariana de",VEN.L_NIL_T.O_F4.USD.Q,Quarterly,92,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+VEN,bop_workers_remittances_credit_usd,"Venezuela, República Bolivariana de",VEN.CD_T.D752W_S1W.USD.Q,Quarterly,36,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+VEN,bop_portfolio_liabilities_usd,"Venezuela, República Bolivariana de",VEN.L_NIL_T.P_F.USD.Q,Quarterly,92,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+VEN,bop_reserve_assets_usd,"Venezuela, República Bolivariana de",VEN.A_T.R_AFR.USD.Q,Quarterly,92,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+GHA,bop_reserve_assets_usd,Ghana,GHA.A_T.R_AFR.USD.Q,Quarterly,58,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+GHA,bop_portfolio_liabilities_usd,Ghana,GHA.L_NIL_T.P_F.USD.Q,Quarterly,56,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+GHA,bop_workers_remittances_credit_usd,Ghana,GHA.CD_T.D752W_S1W.USD.Q,Quarterly,58,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+GHA,bop_other_investment_loans_liabilities_usd,Ghana,GHA.L_NIL_T.O_F4.USD.Q,Quarterly,58,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+DOM,bop_portfolio_liabilities_usd,Dominican Republic,DOM.L_NIL_T.P_F.USD.Q,Quarterly,59,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+DOM,bop_workers_remittances_credit_usd,Dominican Republic,DOM.CD_T.D752W_S1W.USD.Q,Quarterly,59,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+PER,bop_portfolio_liabilities_usd,Peru,PER.L_NIL_T.P_F.USD.Q,Quarterly,171,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JAM,bop_workers_remittances_credit_usd,Jamaica,JAM.CD_T.D752W_S1W.USD.A,Annual,36,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+PER,bop_workers_remittances_credit_usd,Peru,PER.CD_T.D752W_S1W.USD.Q,Quarterly,171,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+DOM,bop_current_account_balance_usd,Dominican Republic,DOM.NETCD_T.CAB.USD.Q,Quarterly,59,Current account balance (credit less debit),Net (credits less debits),US dollar
+DOM,bop_fdi_liabilities_usd,Dominican Republic,DOM.L_NIL_T.D_F.USD.Q,Quarterly,59,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+DOM,bop_other_investment_loans_liabilities_usd,Dominican Republic,DOM.L_NIL_T.O_F4.USD.Q,Quarterly,59,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+PER,bop_current_account_balance_usd,Peru,PER.NETCD_T.CAB.USD.Q,Quarterly,171,Current account balance (credit less debit),Net (credits less debits),US dollar
+GHA,bop_current_account_balance_usd,Ghana,GHA.NETCD_T.CAB.USD.Q,Quarterly,58,Current account balance (credit less debit),Net (credits less debits),US dollar
+LKA,bop_portfolio_liabilities_usd,Sri Lanka,LKA.L_NIL_T.P_F.USD.Q,Quarterly,193,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+LKA,bop_other_investment_loans_liabilities_usd,Sri Lanka,LKA.L_NIL_T.O_F4.USD.Q,Quarterly,193,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+UKR,bop_workers_remittances_credit_usd,Ukraine,UKR.CD_T.D752W_S1W.USD.Q,Quarterly,103,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+UKR,bop_reserve_assets_usd,Ukraine,UKR.A_T.R_AFR.USD.Q,Quarterly,127,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+UKR,bop_current_account_balance_usd,Ukraine,UKR.NETCD_T.CAB.USD.Q,Quarterly,127,Current account balance (credit less debit),Net (credits less debits),US dollar
+BRA,bop_portfolio_liabilities_usd,Brazil,BRA.L_NIL_T.P_F.USD.Q,Quarterly,204,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PER,bop_other_investment_loans_liabilities_usd,Peru,PER.L_NIL_T.O_F4.USD.Q,Quarterly,171,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+DOM,bop_reserve_assets_usd,Dominican Republic,DOM.A_T.R_AFR.USD.Q,Quarterly,59,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+NGA,bop_reserve_assets_usd,Nigeria,NGA.A_T.R_AFR.USD.Q,Quarterly,67,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+JAM,bop_portfolio_liabilities_usd,Jamaica,JAM.L_NIL_T.P_F.USD.Q,Quarterly,55,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JAM,bop_other_investment_loans_liabilities_usd,Jamaica,JAM.L_NIL_T.O_F4.USD.Q,Quarterly,55,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+MEX,bop_portfolio_liabilities_usd,Mexico,MEX.L_NIL_T.P_F.USD.Q,Quarterly,188,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+MEX,bop_workers_remittances_credit_usd,Mexico,MEX.CD_T.D752W_S1W.USD.Q,Quarterly,188,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+MEX,bop_other_investment_loans_liabilities_usd,Mexico,MEX.L_NIL_T.O_F4.USD.Q,Quarterly,188,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+MEX,bop_reserve_assets_usd,Mexico,MEX.A_T.R_AFR.USD.Q,Quarterly,188,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+MEX,bop_fdi_liabilities_usd,Mexico,MEX.L_NIL_T.D_F.USD.Q,Quarterly,188,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+MEX,bop_current_account_balance_usd,Mexico,MEX.NETCD_T.CAB.USD.Q,Quarterly,188,Current account balance (credit less debit),Net (credits less debits),US dollar
+BRA,bop_reserve_assets_usd,Brazil,BRA.A_T.R_AFR.USD.Q,Quarterly,204,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+BRA,bop_fdi_liabilities_usd,Brazil,BRA.L_NIL_T.D_F.USD.Q,Quarterly,204,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+LBN,bop_workers_remittances_credit_usd,Lebanon,LBN.CD_T.D752W_S1W.USD.Q,Quarterly,88,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+LBN,bop_portfolio_liabilities_usd,Lebanon,LBN.L_NIL_T.P_F.USD.Q,Quarterly,88,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+LBN,bop_reserve_assets_usd,Lebanon,LBN.A_T.R_AFR.USD.Q,Quarterly,88,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+LBN,bop_current_account_balance_usd,Lebanon,LBN.NETCD_T.CAB.USD.Q,Quarterly,88,Current account balance (credit less debit),Net (credits less debits),US dollar
+LBN,bop_other_investment_loans_liabilities_usd,Lebanon,LBN.L_NIL_T.O_F4.USD.Q,Quarterly,88,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+PHL,bop_reserve_assets_usd,Philippines,PHL.A_T.R_AFR.USD.Q,Quarterly,196,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+PHL,bop_workers_remittances_credit_usd,Philippines,PHL.CD_T.D752W_S1W.USD.Q,Quarterly,196,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+PHL,bop_fdi_liabilities_usd,Philippines,PHL.L_NIL_T.D_F.USD.Q,Quarterly,196,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PHL,bop_portfolio_liabilities_usd,Philippines,PHL.L_NIL_T.P_F.USD.Q,Quarterly,196,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PHL,bop_other_investment_loans_liabilities_usd,Philippines,PHL.L_NIL_T.O_F4.USD.Q,Quarterly,196,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+PHL,bop_current_account_balance_usd,Philippines,PHL.NETCD_T.CAB.USD.Q,Quarterly,196,Current account balance (credit less debit),Net (credits less debits),US dollar
+EGY,bop_other_investment_loans_liabilities_usd,"Egypt, Arab Republic of",EGY.L_NIL_T.O_F4.USD.Q,Quarterly,59,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+EGY,bop_workers_remittances_credit_usd,"Egypt, Arab Republic of",EGY.CD_T.D752W_S1W.USD.Q,Quarterly,59,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+EGY,bop_portfolio_liabilities_usd,"Egypt, Arab Republic of",EGY.L_NIL_T.P_F.USD.Q,Quarterly,59,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+EGY,bop_reserve_assets_usd,"Egypt, Arab Republic of",EGY.A_T.R_AFR.USD.Q,Quarterly,59,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+EGY,bop_current_account_balance_usd,"Egypt, Arab Republic of",EGY.NETCD_T.CAB.USD.Q,Quarterly,59,Current account balance (credit less debit),Net (credits less debits),US dollar
+EGY,bop_fdi_liabilities_usd,"Egypt, Arab Republic of",EGY.L_NIL_T.D_F.USD.Q,Quarterly,59,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+IND,bop_reserve_assets_usd,India,IND.A_T.R_AFR.USD.Q,Quarterly,204,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+IND,bop_other_investment_loans_liabilities_usd,India,IND.L_NIL_T.O_F4.USD.Q,Quarterly,204,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+IND,bop_fdi_liabilities_usd,India,IND.L_NIL_T.D_F.USD.Q,Quarterly,204,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+IND,bop_workers_remittances_credit_usd,India,IND.CD_T.D752W_S1W.USD.Q,Quarterly,204,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+IND,bop_portfolio_liabilities_usd,India,IND.L_NIL_T.P_F.USD.Q,Quarterly,204,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+IND,bop_current_account_balance_usd,India,IND.NETCD_T.CAB.USD.Q,Quarterly,204,Current account balance (credit less debit),Net (credits less debits),US dollar
+COL,bop_fdi_liabilities_usd,Colombia,COL.L_NIL_T.D_F.USD.Q,Quarterly,120,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+COL,bop_current_account_balance_usd,Colombia,COL.NETCD_T.CAB.USD.Q,Quarterly,120,Current account balance (credit less debit),Net (credits less debits),US dollar
+COL,bop_reserve_assets_usd,Colombia,COL.A_T.R_AFR.USD.Q,Quarterly,120,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+COL,bop_portfolio_liabilities_usd,Colombia,COL.L_NIL_T.P_F.USD.Q,Quarterly,120,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+COL,bop_other_investment_loans_liabilities_usd,Colombia,COL.L_NIL_T.O_F4.USD.Q,Quarterly,120,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+COL,bop_workers_remittances_credit_usd,Colombia,COL.CD_T.D752W_S1W.USD.Q,Quarterly,120,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ROU,bop_workers_remittances_credit_usd,Romania,ROU.CD_T.D752W_S1W.USD.Q,Quarterly,136,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ROU,bop_reserve_assets_usd,Romania,ROU.A_T.R_AFR.USD.Q,Quarterly,140,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ROU,bop_portfolio_liabilities_usd,Romania,ROU.L_NIL_T.P_F.USD.Q,Quarterly,140,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ROU,bop_other_investment_loans_liabilities_usd,Romania,ROU.L_NIL_T.O_F4.USD.Q,Quarterly,140,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+ROU,bop_fdi_liabilities_usd,Romania,ROU.L_NIL_T.D_F.USD.Q,Quarterly,140,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ROU,bop_current_account_balance_usd,Romania,ROU.NETCD_T.CAB.USD.Q,Quarterly,140,Current account balance (credit less debit),Net (credits less debits),US dollar
+ZAF,bop_other_investment_loans_liabilities_usd,South Africa,ZAF.L_NIL_T.O_F4.USD.Q,Quarterly,264,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+ZAF,bop_reserve_assets_usd,South Africa,ZAF.A_T.R_AFR.USD.Q,Quarterly,264,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ZAF,bop_fdi_liabilities_usd,South Africa,ZAF.L_NIL_T.D_F.USD.Q,Quarterly,264,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ZAF,bop_portfolio_liabilities_usd,South Africa,ZAF.L_NIL_T.P_F.USD.Q,Quarterly,264,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ZAF,bop_current_account_balance_usd,South Africa,ZAF.NETCD_T.CAB.USD.Q,Quarterly,264,Current account balance (credit less debit),Net (credits less debits),US dollar
+BRA,bop_other_investment_loans_liabilities_usd,Brazil,BRA.L_NIL_T.O_F4.USD.Q,Quarterly,204,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+BRA,bop_current_account_balance_usd,Brazil,BRA.NETCD_T.CAB.USD.Q,Quarterly,204,Current account balance (credit less debit),Net (credits less debits),US dollar
+MYS,bop_other_investment_loans_liabilities_usd,Malaysia,MYS.L_NIL_T.O_F4.USD.Q,Quarterly,92,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+MYS,bop_workers_remittances_credit_usd,Malaysia,MYS.CD_T.D752W_S1W.USD.Q,Quarterly,8,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+LKA,bop_current_account_balance_usd,Sri Lanka,LKA.NETCD_T.CAB.USD.Q,Quarterly,193,Current account balance (credit less debit),Net (credits less debits),US dollar
+GHA,bop_fdi_liabilities_usd,Ghana,GHA.L_NIL_T.D_F.USD.Q,Quarterly,58,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+LKA,bop_fdi_liabilities_usd,Sri Lanka,LKA.L_NIL_T.D_F.USD.Q,Quarterly,193,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PER,bop_fdi_liabilities_usd,Peru,PER.L_NIL_T.D_F.USD.Q,Quarterly,171,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PER,bop_reserve_assets_usd,Peru,PER.A_T.R_AFR.USD.Q,Quarterly,171,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+LKA,bop_workers_remittances_credit_usd,Sri Lanka,LKA.CD_T.D752W_S1W.USD.Q,Quarterly,193,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+LKA,bop_reserve_assets_usd,Sri Lanka,LKA.A_T.R_AFR.USD.Q,Quarterly,193,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+MYS,bop_reserve_assets_usd,Malaysia,MYS.A_T.R_AFR.USD.Q,Quarterly,104,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+NGA,bop_other_investment_loans_liabilities_usd,Nigeria,NGA.L_NIL_T.O_F4.USD.Q,Quarterly,67,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+MYS,bop_fdi_liabilities_usd,Malaysia,MYS.L_NIL_T.D_F.USD.Q,Quarterly,104,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+LBN,bop_fdi_liabilities_usd,Lebanon,LBN.L_NIL_T.D_F.USD.Q,Quarterly,88,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+NGA,bop_fdi_liabilities_usd,Nigeria,NGA.L_NIL_T.D_F.USD.Q,Quarterly,67,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+NGA,bop_portfolio_liabilities_usd,Nigeria,NGA.L_NIL_T.P_F.USD.Q,Quarterly,67,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+NGA,bop_workers_remittances_credit_usd,Nigeria,NGA.CD_T.D752W_S1W.USD.Q,Quarterly,67,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+JAM,bop_fdi_liabilities_usd,Jamaica,JAM.L_NIL_T.D_F.USD.Q,Quarterly,55,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JAM,bop_reserve_assets_usd,Jamaica,JAM.A_T.R_AFR.USD.Q,Quarterly,55,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+MYS,bop_portfolio_liabilities_usd,Malaysia,MYS.L_NIL_T.P_F.USD.Q,Quarterly,104,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+MYS,bop_current_account_balance_usd,Malaysia,MYS.NETCD_T.CAB.USD.Q,Quarterly,104,Current account balance (credit less debit),Net (credits less debits),US dollar
+JAM,bop_current_account_balance_usd,Jamaica,JAM.NETCD_T.CAB.USD.Q,Quarterly,55,Current account balance (credit less debit),Net (credits less debits),US dollar
+RUS,bop_reserve_assets_usd,Russian Federation,RUS.A_T.R_AFR.USD.Q,Quarterly,112,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ZMB,bop_reserve_assets_usd,Zambia,ZMB.A_T.R_AFR.USD.Q,Quarterly,83,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ZAF,bop_workers_remittances_credit_usd,South Africa,ZAF.CD_T.D752W_S1W.USD.Q,Quarterly,56,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+NGA,bop_current_account_balance_usd,Nigeria,NGA.NETCD_T.CAB.USD.Q,Quarterly,67,Current account balance (credit less debit),Net (credits less debits),US dollar
+ZMB,bop_other_investment_loans_liabilities_usd,Zambia,ZMB.L_NIL_T.O_F4.USD.Q,Quarterly,83,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+ZMB,bop_workers_remittances_credit_usd,Zambia,ZMB.CD_T.D752W_S1W.USD.Q,Quarterly,12,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ZMB,bop_fdi_liabilities_usd,Zambia,ZMB.L_NIL_T.D_F.USD.Q,Quarterly,83,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JOR,bop_other_investment_loans_liabilities_usd,Jordan,JOR.L_NIL_T.O_F4.USD.Q,Quarterly,193,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+ZMB,bop_portfolio_liabilities_usd,Zambia,ZMB.L_NIL_T.P_F.USD.Q,Quarterly,83,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JOR,bop_reserve_assets_usd,Jordan,JOR.A_T.R_AFR.USD.Q,Quarterly,193,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+JOR,bop_fdi_liabilities_usd,Jordan,JOR.L_NIL_T.D_F.USD.Q,Quarterly,193,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+RUS,bop_other_investment_loans_liabilities_usd,Russian Federation,RUS.L_NIL_T.O_F4.USD.Q,Quarterly,112,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+RUS,bop_portfolio_liabilities_usd,Russian Federation,RUS.L_NIL_T.P_F.USD.Q,Quarterly,127,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+RUS,bop_workers_remittances_credit_usd,Russian Federation,RUS.CD_T.D752W_S1W.USD.Q,Quarterly,84,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ZMB,bop_current_account_balance_usd,Zambia,ZMB.NETCD_T.CAB.USD.Q,Quarterly,83,Current account balance (credit less debit),Net (credits less debits),US dollar
+RUS,bop_fdi_liabilities_usd,Russian Federation,RUS.L_NIL_T.D_F.USD.Q,Quarterly,127,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JOR,bop_current_account_balance_usd,Jordan,JOR.NETCD_T.CAB.USD.Q,Quarterly,193,Current account balance (credit less debit),Net (credits less debits),US dollar
+JOR,bop_portfolio_liabilities_usd,Jordan,JOR.L_NIL_T.P_F.USD.Q,Quarterly,182,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+JOR,bop_workers_remittances_credit_usd,Jordan,JOR.CD_T.D752W_S1W.USD.Q,Quarterly,193,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+RUS,bop_current_account_balance_usd,Russian Federation,RUS.NETCD_T.CAB.USD.Q,Quarterly,127,Current account balance (credit less debit),Net (credits less debits),US dollar
+ECU,bop_current_account_balance_usd,Ecuador,ECU.NETCD_T.CAB.USD.Q,Quarterly,131,Current account balance (credit less debit),Net (credits less debits),US dollar
+ECU,bop_fdi_liabilities_usd,Ecuador,ECU.L_NIL_T.D_F.USD.Q,Quarterly,131,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ECU,bop_portfolio_liabilities_usd,Ecuador,ECU.L_NIL_T.P_F.USD.Q,Quarterly,131,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ECU,bop_reserve_assets_usd,Ecuador,ECU.A_T.R_AFR.USD.Q,Quarterly,131,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ECU,bop_workers_remittances_credit_usd,Ecuador,ECU.CD_T.D752W_S1W.USD.Q,Quarterly,131,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ECU,bop_other_investment_loans_liabilities_usd,Ecuador,ECU.L_NIL_T.O_F4.USD.Q,Quarterly,131,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+TUN,bop_reserve_assets_usd,Tunisia,TUN.A_T.R_AFR.USD.Q,Quarterly,28,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+TUN,bop_other_investment_loans_liabilities_usd,Tunisia,TUN.L_NIL_T.O_F4.USD.Q,Quarterly,28,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+TUN,bop_portfolio_liabilities_usd,Tunisia,TUN.L_NIL_T.P_F.USD.Q,Quarterly,28,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+TUN,bop_workers_remittances_credit_usd,Tunisia,TUN.CD_T.D752W_S1W.USD.Q,Quarterly,28,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+TUN,bop_fdi_liabilities_usd,Tunisia,TUN.L_NIL_T.D_F.USD.Q,Quarterly,28,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+TUN,bop_current_account_balance_usd,Tunisia,TUN.NETCD_T.CAB.USD.Q,Quarterly,28,Current account balance (credit less debit),Net (credits less debits),US dollar
+IDN,bop_reserve_assets_usd,Indonesia,IDN.A_T.R_AFR.USD.Q,Quarterly,180,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+IDN,bop_workers_remittances_credit_usd,Indonesia,IDN.CD_T.D752W_S1W.USD.Q,Quarterly,180,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+IDN,bop_fdi_liabilities_usd,Indonesia,IDN.L_NIL_T.D_F.USD.Q,Quarterly,180,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PAK,bop_fdi_liabilities_usd,Pakistan,PAK.L_NIL_T.D_F.USD.Q,Quarterly,200,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+IDN,bop_current_account_balance_usd,Indonesia,IDN.NETCD_T.CAB.USD.Q,Quarterly,180,Current account balance (credit less debit),Net (credits less debits),US dollar
+IDN,bop_portfolio_liabilities_usd,Indonesia,IDN.L_NIL_T.P_F.USD.Q,Quarterly,180,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+PAK,bop_workers_remittances_credit_usd,Pakistan,PAK.CD_T.D752W_S1W.USD.Q,Quarterly,152,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+PAK,bop_reserve_assets_usd,Pakistan,PAK.A_T.R_AFR.USD.Q,Quarterly,200,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+PAK,bop_other_investment_loans_liabilities_usd,Pakistan,PAK.L_NIL_T.O_F4.USD.Q,Quarterly,200,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+PAK,bop_current_account_balance_usd,Pakistan,PAK.NETCD_T.CAB.USD.Q,Quarterly,200,Current account balance (credit less debit),Net (credits less debits),US dollar
+PAK,bop_portfolio_liabilities_usd,Pakistan,PAK.L_NIL_T.P_F.USD.Q,Quarterly,200,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+IDN,bop_other_investment_loans_liabilities_usd,Indonesia,IDN.L_NIL_T.O_F4.USD.Q,Quarterly,180,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+HUN,bop_portfolio_liabilities_usd,Hungary,HUN.L_NIL_T.P_F.USD.Q,Quarterly,145,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+HUN,bop_workers_remittances_credit_usd,Hungary,HUN.CD_T.D752W_S1W.USD.Q,Quarterly,145,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+HUN,bop_fdi_liabilities_usd,Hungary,HUN.L_NIL_T.D_F.USD.Q,Quarterly,145,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+HUN,bop_reserve_assets_usd,Hungary,HUN.A_T.R_AFR.USD.Q,Quarterly,145,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+HUN,bop_other_investment_loans_liabilities_usd,Hungary,HUN.L_NIL_T.O_F4.USD.Q,Quarterly,145,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar
+HUN,bop_current_account_balance_usd,Hungary,HUN.NETCD_T.CAB.USD.Q,Quarterly,145,Current account balance (credit less debit),Net (credits less debits),US dollar
+ARG,bop_reserve_assets_usd,Argentina,ARG.A_T.R_AFR.USD.Q,Quarterly,200,"Reserve assets, Adjusted using IMF accounting records",Assets,US dollar
+ARG,bop_workers_remittances_credit_usd,Argentina,ARG.CD_T.D752W_S1W.USD.Q,Quarterly,200,"Workers' remittances, Financial corporations, nonfinancial corporations, households, and NPISHs",Credit/Revenue,US dollar
+ARG,bop_portfolio_liabilities_usd,Argentina,ARG.L_NIL_T.P_F.USD.Q,Quarterly,200,"Portfolio investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ARG,bop_fdi_liabilities_usd,Argentina,ARG.L_NIL_T.D_F.USD.Q,Quarterly,200,"Direct investment, Total financial assets/liabilities","Liabilities, Net incurrence of liabilities",US dollar
+ARG,bop_current_account_balance_usd,Argentina,ARG.NETCD_T.CAB.USD.Q,Quarterly,200,Current account balance (credit less debit),Net (credits less debits),US dollar
+ARG,bop_other_investment_loans_liabilities_usd,Argentina,ARG.L_NIL_T.O_F4.USD.Q,Quarterly,200,"Other investment, Loans","Liabilities, Net incurrence of liabilities",US dollar

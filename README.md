@@ -27,11 +27,11 @@ We frame the task as **binary time-series classification**: given 24 months of e
 ├── src/
 │   └── data_cleaning_pipeline.py  # raw archives -> data/interim/ + data/processed/
 ├── data/
-│   ├── README.md                  # raw-source download links + Release asset
-│   ├── raw/                       # untracked; populated from public sources
-│   ├── interim/                   # untracked; produced by the cleaning pipeline
-│   ├── processed/                 # untracked; produced by the cleaning pipeline
-│   └── final/                     # untracked; produced by 01_preprocessing.ipynb
+│   ├── README.md                  # raw-source download links and folder layout
+│   ├── raw/                       # untracked; raw archives are downloaded from public sources
+│   ├── interim/                   # cleaned single-source CSVs (committed)
+│   ├── processed/                 # merged country-month panel (committed)
+│   └── final/                     # train/val/test tables, sliding-window arrays, results (committed)
 ├── docs/
 │   ├── data_cleaning_methodology.docx
 │   └── modeling_guide.docx
@@ -54,7 +54,9 @@ Five raw sources (IMF WEO, World Bank IDS, ACLED, IMF BOP, BIS) are cleaned by `
 pip install -r requirements.txt
 ```
 
-**Option A — modeling only (recommended).** Download the cleaned dataset asset from the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/download/v1.0/early-warning-data-v1.0.zip) (~9 MB), unzip it into the project root so the contents land under `data/interim/`, `data/processed/`, and `data/final/`, and run `notebooks/02_modeling.ipynb` end to end. Set the `BASE` variable at the top of the notebook to the local path that contains the extracted `data/` directory.
+**Option A — modeling only (recommended).** The cleaned dataset (~37 MB across `data/interim/`, `data/processed/`, and `data/final/`) is committed in this repo, so cloning is enough. Run `notebooks/02_modeling.ipynb` end to end and set the `BASE` variable at the top of the notebook to the local path of the cloned repository.
+
+A single-archive download (`early-warning-data-v1.0.zip`, ~9 MB) is also attached to the [v1.0 Release](https://github.com/kgoel99/early-warning-of-sovereign-debt-distress/releases/tag/v1.0) for users who prefer to pull just the data without cloning.
 
 **Option B — full pipeline from raw sources.** Follow the download instructions in [`data/README.md`](data/README.md) to populate `data/raw/`, then run:
 

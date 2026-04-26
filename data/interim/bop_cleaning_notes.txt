@@ -1,0 +1,9 @@
+BOP cleaning summary
+====================
+Raw file: Large Raw Data-20260403T040046Z-1-001.zip
+Selected series rows: 168
+Countries with at least one selected BOP series: 28
+Countries without selected BOP series in source file: ['ETH', 'MOZ', 'POL', 'TUR']
+
+Selected series by country-feature saved in bop_series_selection.csv
+Updated merged panel saved in data/processed/panel_full.csv

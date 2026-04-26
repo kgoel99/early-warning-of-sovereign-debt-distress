@@ -1,36 +1,22 @@
-# Data — distributed via GitHub Releases, not committed
+# Raw archives are too large to commit — they live outside the repo.
+# See data/README.md for download links.
 data/raw/*
-data/interim/*
-data/processed/*
-data/final/*
 !data/raw/.gitkeep
-!data/interim/.gitkeep
-!data/processed/.gitkeep
-!data/final/.gitkeep
 
-# Common data file types
-*.csv
-*.tsv
-*.npz
-*.npy
-*.pkl
-*.h5
-*.hdf5
-*.parquet
-*.feather
-*.xlsx
-*.xls
-*.zip
-
-# Model artifacts
+# Model artifacts (binary, regenerable)
 *.pt
 *.pth
 *.ckpt
 *.bin
 *.onnx
+*.h5
+*.hdf5
 
-# PDFs (none committed)
-*.pdf
+# Other large binary blobs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
 
 # Python
 __pycache__/
