@@ -221,17 +221,6 @@ The test set covers the post-COVID stress period including Sri Lanka (2022), Gha
 
 ![Lead time](figures/lead_time_final.png)
 
-## Improvement over interim submission
-
-The interim submission (see `notebooks/interim/`) used a simpler feature set (86 features, no FRED global factors, no commodity terms of trade), a single time split, and fewer model families. The final pipeline adds:
-
-- 7 FRED global macro factors with momentum and composite risk features
-- Commodity terms of trade (country-specific, from IMF)
-- Curated distress labels replacing the original label set
-- Fixed sliding-window generation using end-month split assignment
-- 10 additional model variants including the Multimodal GRU-Transformer and ensemble strategies
-- Interactive dashboard for result exploration
-
 ## References
 
 - Raleigh, C., Linke, A., Hegre, H., and Karlsen, J. (2010). Introducing ACLED. *Journal of Peace Research*.  
