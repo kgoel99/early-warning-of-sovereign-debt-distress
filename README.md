@@ -86,29 +86,72 @@ pip install -r requirements.txt
 
 ### 2. Option A — Run the model only (recommended)
 
-The processed dataset is committed in this repository. Clone the repo, then open and run `notebooks/02_model_runner.ipynb` end to end.
+All train/val/test splits are committed in `data/final/`. Clone the repo and run `notebooks/02_model_runner.ipynb` end to end.
 
-Before running, set the two path variables at the top of the notebook:
+**Path variables (Cell 1 of the notebook):**
 
 ```python
-FINAL_DATA_DIR = Path("../data/final")   # folder with train/val/test splits
-RESULT_DIR     = Path("../results/final")  # where outputs will be written
+FINAL_DATA_DIR = Path("../data/final")    # folder containing the train/val/test splits
+RESULT_DIR     = Path("../results/final") # folder where predictions, plots, and summary are written
 ```
 
-The notebook runs on CPU. A high-RAM runtime is recommended for the full ensemble (16 models). Expected runtime: 60–90 minutes on CPU, ~15 minutes on GPU.
+Adjust these only if you are running from a directory other than `notebooks/`.
+
+**What the notebook does, cell by cell:**
+1. Set paths (`FINAL_DATA_DIR`, `RESULT_DIR`)
+2. Install pinned dependencies (safe to skip if already installed)
+3. Imports, config, and data loading — reads all flat CSV and NPZ files from `FINAL_DATA_DIR`
+4. Scaling and shared inputs
+5. Metrics, registration, and aligned ensembles
+6. PyTorch utilities and losses
+7. Model classes (GRU, LSTM, CNN, Transformer, Multimodal GRU-Transformer, etc.)
+8. Train classical linear and tree baselines
+9. Train regularised boosting models (XGBoost, LightGBM, CatBoost, Extra Trees, Random Forest)
+10. Train flattened-window XGBoost
+11. Train neural temporal models (CNN-1D, GRU, LSTM, TCN, Attention-GRU, Transformer, Multimodal GRU-Transformer)
+12. Optional seed ensembles (disabled by default; set `RUN_OPTIONAL_SEED_ENSEMBLES = True` to enable)
+13. Build top-only ensembles (neural rank ensemble, hybrid rank ensemble)
+14. Final summary, plots, and export — writes `summary.csv` and per-model prediction CSVs to `RESULT_DIR`
+15. Zip model results — writes `results/final_model_results.zip`
+16–30. Visualisation cells — writes 12 plots to `RESULT_DIR/plots/`
+
+**Outputs written to `results/final/`:**
+- `summary.csv` / `summary_report_table.csv` — all model metrics
+- `predictions/<model>__val.csv` and `predictions/<model>__test.csv` — per-row scores
+- `plots/` — 12 plot files
+- `../results/final_model_results.zip` — zip of the full results folder
+
+**Runtime:** GPU (High-RAM) recommended. Expected: ~15 minutes on GPU, 60–90 minutes on CPU.
 
 ### 3. Option B — Rebuild the feature-engineering step
 
-Run `notebooks/01_data_cleaning.ipynb` before the model runner. This notebook reads `data/processed/panel_full.csv` and the files in `data/raw/` and writes the train/val/test splits to `data/final/`.
+Run `notebooks/01_data_cleaning.ipynb` before the model runner. This notebook reads `data/processed/panel_full.csv` and the raw series in `data/raw/` and writes the final train/val/test splits to `data/final/`.
+
+**Path variable (Cell 2 of the notebook):**
 
 ```python
 DATA_DIR = Path("../data")
 ```
 
-The required input files are:
+**Required input files:**
 - `data/processed/panel_full.csv`
-- `data/raw/fred/*.csv` (7 files)
+- `data/raw/fred/VIXCLS.csv`, `DGS10.csv`, `FEDFUNDS.csv`, `DCOILBRENTEU.csv`, `CPIAUCSL.csv`, `TWEXBMTH.csv`, `DTWEXBGS.csv`
 - `data/raw/ctot/ctot_model_input_wide_2000_2024.csv`
+
+**What the notebook does, cell by cell:**
+1. Setup — imports
+2. Set paths — set `DATA_DIR`
+3. Validate required files — checks all inputs exist
+4. Build curated distress labels — 22 hand-verified events → `data/interim/distress_events_curated.csv`
+5. Default-history features — past-default counts and time-since-last-default
+6. FRED global macro features — VIX, US 10Y, Fed Funds, Brent, USD index, real rate, etc.
+7. Commodity Terms of Trade — country-specific CoT index, YoY and 6-month changes
+8. Merge into final panel — joins panel, labels, default history, FRED, and CoT; applies time splits (train ≤ 2017, embargo 2018, val 2019–2020, embargo 2021, test ≥ 2022)
+9. Save flat CSVs and windowed NPZ files — writes `train/val/test_flat.csv` and `train/val/test_windows.npz` to `data/final/`
+10. Save metadata and summary statistics — writes `feature_metadata.json`, `class_distribution.json`, `summary_statistics.csv`
+11. Zip outputs — writes `data/final_outputs.zip`
+
+After running, proceed with Option A.
 
 ### 4. Option C — Full pipeline from raw archives
 
