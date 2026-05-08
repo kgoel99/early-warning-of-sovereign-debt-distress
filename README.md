@@ -223,11 +223,23 @@ The test set covers the post-COVID stress period including Sri Lanka (2022), Gha
 
 ## References
 
-- Raleigh, C., Linke, A., Hegre, H., and Karlsen, J. (2010). Introducing ACLED. *Journal of Peace Research*.  
-- Vaswani, A., et al. (2017). Attention Is All You Need. *NeurIPS*.  
-- Hochreiter, S. and Schmidhuber, J. (1997). Long Short-Term Memory. *Neural Computation*.  
-- Chen, T. and Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *KDD*.  
-- Ke, G., et al. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. *NeurIPS*.  
-- Prokhorenkova, L., et al. (2018). CatBoost: Unbiased Boosting with Categorical Features. *NeurIPS*.  
-- Lin, T.-Y., et al. (2017). Focal Loss for Dense Object Detection. *ICCV*.  
-- Beers, D., Jones, E., and Walsh, J. (2023). *BoC–BoE Sovereign Default Database*. Bank of Canada Staff Analytical Note.  
+[1] D. Beers, E. Jones, and J. Walsh, “BoC-BoE Sovereign Default Database: What’s New in 2023?” Bank of Canada Staff Analytical Note, 2023.
+[2] C. M. Reinhart and K. S. Rogoff, This Time Is Different: Eight Centuries of Financial Folly. Princeton University Press, 2009.
+[3] G. L. Kaminsky, S. Lizondo, and C. M. Reinhart, “Leading Indicators of Currency Crises,” IMF Staff Papers, vol. 45, no. 1, pp. 1–48, 1998.
+[4] P. Manasse and N. Roubini, “Rules of Thumb for Sovereign Debt Crises,” Journal of International Economics, vol. 78, no. 2, pp. 192–205, 2009.
+[5] M. Dawood, N. Horsewood, and F. Strobel, “Predicting Sovereign Debt Crises: An Early Warning System Approach,” Journal of Financial Stability, vol. 28, pp. 16–28, 2017.
+[6] R. Savona and M. Vezzoli, “Fitting and Forecasting Sovereign Defaults Using Multiple Risk Signals,” Oxford Economic Papers, vol. 74, no. 4, pp. 1038–1065, 2022.
+[7] T. Chen and C. Guestrin, “XGBoost: A Scalable Tree Boosting System,” in Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 785–794, 2016.
+[8] G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.-Y. Liu, “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” in Advances in Neural Information Processing Systems, vol. 30, 2017.
+[9] L. Prokhorenkova, G. Gusev, A. Vorobev, A. V. Dorogush, and A. Gulin, “CatBoost: Unbiased Boosting with Categorical Features,” in Advances in Neural Information Processing Systems, vol. 31, 2018.
+[10] T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, “Focal Loss for Dense Object Detection,” in Proceedings of the IEEE International Conference on Computer Vision, pp. 2980–2988, 2017.
+[11] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, “Attention Is All You Need,” in Advances in Neural Information Processing Systems, vol. 30, 2017.
+[12] S. Hochreiter and J. Schmidhuber, “Long Short-Term Memory,” Neural Computation, vol. 9, no. 8, pp. 1735–1780, 1997.
+[13] K. Cho, B. van Merrienboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, “Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation,” in Proceedings of the Conference on Empirical Methods in Natural Language Processing, 2014.
+[14] A. Paszke et al., “PyTorch: An Imperative Style, High-Performance Deep Learning Library,” in Advances in Neural Information Processing Systems, vol. 32, 2019.
+[15] C. Raleigh, A. Linke, H. Hegre, and J. Karlsen, “Introducing ACLED: An Armed Conflict Location and Event Dataset,” Journal of Peace Research, vol. 47, no. 5, pp. 651–660, 2010.
+[16] International Monetary Fund, “World Economic Outlook, International Financial Statistics, and Balance of Payments Data.” Available at: https://www.imf.org/en/Data.
+[17] World Bank, “International Debt Statistics.” Available at: https://www.worldbank.org/en/programs/debt-statistics/ids.
+[18] Bank for International Settlements, “Debt Securities Statistics.” Available at: https://data.bis.org/topics/DSS.
+[19] Federal Reserve Bank of St. Louis, “Federal Reserve Economic Data.” Available at: https://fred.stlouisfed.org/.
+[20] International Monetary Fund, “Commodity Terms of Trade Database.” Available at: https://data.imf.org/. 
