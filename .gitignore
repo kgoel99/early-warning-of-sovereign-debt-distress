@@ -1,7 +1,7 @@
-# Raw archives are too large to commit — they live outside the repo.
-# See data/README.md for download links.
-data/raw/*
-!data/raw/.gitkeep
+# Large raw archives (not committed — see data/README.md for download links)
+data/raw/**/*.zip
+data/raw/**/*.xlsx
+data/raw/**/*.xls
 
 # Model artifacts (binary, regenerable)
 *.pt
@@ -47,3 +47,4 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+data/raw/imf_dots/imports_monthly.csv
