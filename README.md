@@ -129,11 +129,12 @@ Open `dashboard/sovereign_debt_dashboard.html` in any modern browser — no serv
 | Split | Period | Rows | Positive rate |
 |-------|--------|------|---------------|
 | Train | Jan 2000 – Dec 2017 | 6,912 | 2.1% |
-| Embargo | Jan 2018 – Dec 2018 | 768 | — |
+| Embargo | Jan 2018 – Dec 2018 | 384 | — |
 | Validation | Jan 2019 – Dec 2020 | 768 | 6.3% |
+| Embargo | Jan 2021 – Dec 2021 | 384 | — |
 | Test | Jan 2022 – Dec 2024 | 1,152 | 4.4% |
 
-The embargo period is excluded from both training and evaluation to prevent leakage through the 24-month sliding windows.
+Both embargo periods are excluded from training and evaluation to prevent leakage through the 24-month sliding windows at the split boundaries.
 
 ## Models
 
