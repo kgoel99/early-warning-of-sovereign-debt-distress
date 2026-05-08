@@ -2,8 +2,6 @@
 
 Predicting sovereign debt distress within 12 months for 32 emerging-market economies using a multimodal Transformer trained on macroeconomic, debt, balance-of-payments, and political-instability signals.
 
-**DATA612 — Group 9** · Akul Ukey, Ankur Sheth, Kunal Goel
-
 ## Problem
 
 Sovereign debt crises rarely come from one variable going wrong. Debt rises while reserves shrink while financing conditions tighten while political instability grows. Most existing early-warning models use a handful of macro indicators and treat each month independently, missing the cross-signal interactions that build up over time.
