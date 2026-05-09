@@ -223,7 +223,7 @@ The test set covers the post-COVID stress period including Sri Lanka (2022), Gha
 
 ## References
 
-[1] D. Beers, E. Jones, and J. Walsh, “BoC-BoE Sovereign Default Database: What’s New in 2023?” Bank of Canada Staff Analytical Note, 2023.
+[1] D. Beers, E. Jones, and J. Walsh, “BoC-BoE Sovereign Default Database: What’s New in 2023?,” Bank of Canada Staff Analytical Note, 2023.
 
 [2] C. M. Reinhart and K. S. Rogoff, This Time Is Different: Eight Centuries of Financial Folly. Princeton University Press, 2009.
 
@@ -233,7 +233,7 @@ The test set covers the post-COVID stress period including Sri Lanka (2022), Gha
 
 [5] M. Dawood, N. Horsewood, and F. Strobel, “Predicting Sovereign Debt Crises: An Early Warning System Approach,” Journal of Financial Stability, vol. 28, pp. 16–28, 2017.
 
-[6] R. Savona and M. Vezzoli, “Fitting and Forecasting Sovereign Defaults Using Multiple Risk Signals,” Oxford Economic Papers, vol. 74, no. 4, pp. 1038–1065, 2022.
+[6] A. Petropoulos, V. Siakoulis, E. Stavroulakis, and D. Pinotsis, “Towards an Early Warning System for Sovereign Defaults Leveraging on ML Methodologies,” Intelligent Systems in Accounting, Finance and Management, vol. 29, no. 2, pp. 118–129, 2022.
 
 [7] T. Chen and C. Guestrin, “XGBoost: A Scalable Tree Boosting System,” in Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 785–794, 2016.
 
@@ -261,4 +261,16 @@ The test set covers the post-COVID stress period including Sri Lanka (2022), Gha
 
 [19] Federal Reserve Bank of St. Louis, “Federal Reserve Economic Data.” Available at: https://fred.stlouisfed.org/.
 
-[20] International Monetary Fund, “Commodity Terms of Trade Database.” Available at: https://data.imf.org/. 
+[20] International Monetary Fund, “Commodity Terms of Trade Database.” Available at: https://data.imf.org/.
+
+[21] T. Kristof, “Sovereign Default Forecasting in the Era of the COVID-19 Crisis,” Journal of Risk and Financial Management, vol. 14, no. 10, p. 494, 2021.
+
+[22] S. Barth´elemy, L. Music, A. Gautier, and A. Vouldis, “Early Warning System for Currency Crises Using Long Short-Term Memory and Gated Recurrent Unit Neural Networks,” Journal of Forecasting, vol. 43, no. 4, pp. 1142–1165, 2024.
+
+[23] H. Emami, C. Zhang, and O. R. Za¨ıane, “Modality-Aware Transformer for Financial Time Series Forecasting,” arXiv preprint arXiv:2310.01232, 2024.
+
+[24] C. Reimann, “Predicting Financial Crises: An Evaluation of ML Algorithms and Model Explainability for Early Warning Systems,” Review of Evolutionary Political Economy, vol. 5, pp. 283–310, 2024.
+
+[25] L. Laeven and F. Valencia, “Systemic Banking Crises Database II,” IMF Economic Review, vol. 68, no. 2, pp. 307–361, 2020.
+
+[26] K. Bluwstein, M. Buckmann, A. Joseph, S. Kang, S. Kapadia, and O. Simsek, “Credit Growth, the Yield Curve and Financial Crisis Prediction: Evidence from a Machine Learning Approach,” Bank of England Staff Working Paper, 2020.
